@@ -1,0 +1,41 @@
+-------------------------------------------------
+The trace creation timestamp is: Wed Jan 17 11:46:15 18
+The executable build timestamp is: Tue Jul 08 13:18:07 14
+The datecode is: 2014190
+The pro machine type is: x86e_win64
+The process ID is: 19348
+The traceback type is : CRASH
+-------------------------------------------------
+Exception EXCEPTION_ACCESS_VIOLATION has occurred in the thread 12184.
+
+Main Thread 12184
+=====================
+0x00007FF6F7D6E16C	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0xba61cca8, 0xb3aff750, 0xb3aff810, 0x0 ) 
+0x00007FF6F7D6E35F	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0xb3aff810, 0x1, 0x1, 0x0 ) 
+0x00007FF6F7D67863	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0x2, 0xb87d1b58, 0x0, 0x1 ) 
+0x00007FF6F7D6670E	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0xb87df6fb, 0xb3affb70, 0x0, 0x0 ) 
+0x00007FF6F7D6CF0D	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0x2, 0xb87df638, 0x0, 0x0 ) 
+0x00007FF6F7D5115C	NULL (NULL:0) (qualityagent:0x00007FF6F7D50000) ( 0x0, 0x0, 0x0, 0x0 ) 
+0x00007FFB14AA2774	NULL (NULL:0) (KERNEL32:0x00007FFB14A90000) ( 0x0, 0x0, 0x0, 0x0 ) 
+
+Thread 17844
+=====================
+0x00007FFB16078C34	NULL (NULL:0) (ntdll:0x00007FFB15FD0000) ( 0xb8767d00, 0xb8754450, 0x0, 0x0 ) 
+0x00007FFB16011553	NULL (NULL:0) (ntdll:0x00007FFB15FD0000) ( 0x0, 0x0, 0x0, 0x0 ) 
+0x00007FFB14AA2774	NULL (NULL:0) (KERNEL32:0x00007FFB14A90000) ( 0x0, 0x0, 0x0, 0x0 ) 
+
+Thread 14980
+=====================
+0x00007FFB16078C34	NULL (NULL:0) (ntdll:0x00007FFB15FD0000) ( 0x0, 0x390, 0xb3894000, 0x0 ) 
+0x00007FFB16011553	NULL (NULL:0) (ntdll:0x00007FFB15FD0000) ( 0x0, 0x0, 0x0, 0x0 ) 
+0x00007FFB14AA2774	NULL (NULL:0) (KERNEL32:0x00007FFB14A90000) ( 0x0, 0x0, 0x0, 0x0 ) 
+
+Thread 18860
+=====================
+0x00007FFB16075EF4	NULL (NULL:0) (ntdll:0x00007FFB15FD0000) ( 0x11f11990, 0x0, 0xb3dff5c0, 0x15fd0000 ) 
+0x00007FFB1289DCB0	NULL (NULL:0) (KERNELBASE:0x00007FFB12850000) ( 0x0, 0x16040d30, 0x0, 0x0 ) 
+0x00007FFB15992CE3	NULL (NULL:0) (combase:0x00007FFB15950000) ( 0x0, 0x0, 0x0, 0x15a01447 ) 
+0x00007FFB15A273E0	NULL (NULL:0) (combase:0x00007FFB15950000) ( 0xffffffff, 0xba5eace0, 0x0, 0x49ac ) 
+0x00007FFB15992BB7	NULL (NULL:0) (combase:0x00007FFB15950000) ( 0x0, 0x0, 0xba60fa60, 0x0 ) 
+0x00007FFB15A2888C	NULL (NULL:0) (combase:0x00007FFB15950000) ( 0x0, 0x0, 0x0, 0x0 ) 
+0x00007FFB14AA2774	NULL (NULL:0) (KERNEL32:0x00007FFB14A90000) ( 0x0, 0x0, 0x0, 0x0 ) 
