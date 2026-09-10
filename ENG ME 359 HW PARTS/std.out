@@ -1,0 +1,18 @@
+License request failed for feature
+
+Requesting CREOPMA_Student3 ...
+C:\ProgramData\PTC\Licensing\BK400407EDSTUDENTUNICL_license.dat: (-10) Feature has expired.
+7788@eng-license2: (-96) License server machine is down or not responding.
+
+Requesting PROE_Educ1 ...
+C:\ProgramData\PTC\Licensing\BK400407EDSTUDENTUNICL_license.dat: (-5) No such feature exists.
+
+Displaying status for license file: C:\ProgramData\PTC\Licensing\BK400407EDSTUDENTUNICL_license.dat
+                       License    In Use   Free   Version    Expire Date        SCN 
+                       -------    ------   ----   -------    -----------       -----
+              CREOPMA_Student3       Uncounted      34.0     09-feb-2016    Student3 Locked to: E8-2A-EA-B1-EB-21
+              CREOLAY_Student3       Uncounted      34.0     09-feb-2016    Student3 Locked to: E8-2A-EA-B1-EB-21
+              CREODMA_Student3       Uncounted      34.0     09-feb-2016    Student3 Locked to: E8-2A-EA-B1-EB-21
+
+
+MOLD_ANALYSIS_HOME is not set
