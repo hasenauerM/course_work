@@ -1,0 +1,26 @@
+CHIP JumpSelector {
+
+	IN  ng,
+	    zr,
+	    jmp[3];
+	
+	OUT inc,
+	    load;
+	
+	PARTS:
+	And(a=notNg,b=notZr,out=isPosNum);
+	And(a=notNg,b=zr,out=isZero);
+	And(a=ng,b=notZr,out=isNegNum);
+	Or(a=notNg,b=zr,out=zeroOrMore);
+	Or(a=zr,b=ng,out=zeroOrLess);
+	Not(in=ng, out=notNg);
+	Not(in=zr, out=notZr);
+	Mux(a=false,b=isPosNum,sel=jmp[0],out=muxA);
+	Mux(a=isZero,b=zeroOrMore,sel=jmp[0],out=muxB);
+	Mux(a=isNegNum,b=notZr,sel=jmp[0],out=muxC);
+	Mux(a=zeroOrLess,b=true,sel=jmp[0],out=muxD);
+	Mux(a=muxA,b=muxB,sel=jmp[1],out=muxAB);
+	Mux(a=muxC,b=muxD,sel=jmp[1],out=muxCD);
+	Mux(a=muxAB,b=muxCD,sel=jmp[2],out=muxABCD, out=load);
+	Not(in=muxABCD,out=inc);
+}

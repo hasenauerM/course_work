@@ -1,0 +1,9 @@
+(START)
+@R0
+D=M
+@R1
+D=D-M
+@R3
+M=D
+@START
+0;JMP
